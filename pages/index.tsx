@@ -15,7 +15,7 @@ export default function Index() {
 
 
   return <div className="h-screen bg-zinc-900">
-    <p className={`text-green-500 transition-all !mb-0 duration-1000 text-center pt-10 text-3xl opacity-${opacity}`}>IUT Helper</p>
+    <p className={`text-green-500 transition-all !mb-0 duration-1000 text-center pt-10 text-3xl opacity-${opacity}`}>Coming soon ...</p>
   </div>
 }
 
