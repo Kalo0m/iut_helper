@@ -15,13 +15,8 @@ export default function Index() {
 
 
   return <>
-    <h1 className={`text-green-500 transition-all opacity-50 duration-1000 text-center pt-10 text-3xl opacity-${opacity}`}>Coming soon ...</h1>
+    <h1 className={`text-green-500 transition-all  duration-1000 text-center pt-10 text-3xl opacity-${opacity}`}>Coming soon ...</h1>
   </>
 }
 
-export async function getServerSideProps() {
-  console.log('coucou from server')
 
-  // Pass data to the page via props
-  return { props: { data: 'test' } }
-}
