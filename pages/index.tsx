@@ -23,5 +23,5 @@ export async function getServerSideProps() {
   console.log('coucou from server')
 
   // Pass data to the page via props
-  return { data: 'test' }
+  return { props: { data: 'test' } }
 }
